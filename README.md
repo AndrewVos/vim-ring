@@ -9,3 +9,5 @@ spec/models/thing_spec.rb
 app/controllers/things_controller.rb
 app/views/things/index.html.erb
 ```
+
+Hit `]r` and `[r` to jump to the next and previous related files respectively.
