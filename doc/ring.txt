@@ -1,0 +1,39 @@
+*ring.txt*	Quickly jump to related files in your Rails project.
+
+*ring*
+
+==============================================================================
+CONTENTS							*ring-contents*
+
+    1.Introduction............................|ring-intrduction|
+    2.Commands................................|ring-commands|
+    3.Mappings................................|ring-mappings|
+
+==============================================================================
+
+INTRODUCTION							*ring-introduction*
+
+Quickly jump to related files in your Rails project.
+
+:Ring <tab> on file app/models/thing.rb will autocomplete:
+
+spec/models/thing_spec.rb
+app/controllers/things_controller.rb
+app/views/things/index.html.erb
+
+
+==============================================================================
+
+COMMANDS							*ring-commands*
+
+								*ring-:Ring*
+:Ring {path}
+
+==============================================================================
+
+MAPPINGS							*ring-mappings*
+
+[r			Go to the previous related file.
+]r			Go to the next related file.
+
+vim:tw=78:sw=4:ft=help:norl:
