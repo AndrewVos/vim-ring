@@ -10,4 +10,6 @@ app/controllers/things_controller.rb
 app/views/things/index.html.erb
 ```
 
+Press enter to `:edit` the file.
+
 Hit `]r` and `[r` to jump to the next and previous related files respectively.

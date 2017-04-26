@@ -21,6 +21,8 @@ spec/models/thing_spec.rb
 app/controllers/things_controller.rb
 app/views/things/index.html.erb
 
+Press <Enter> to `:edit` the file.
+
 
 ==============================================================================
 
